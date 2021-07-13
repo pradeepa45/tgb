@@ -17,7 +17,7 @@ Author URL: http://w3layouts.com
         rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-starter.css">
     <!-- fa -->
     <!-- <link
     rel="stylesheet"
@@ -36,7 +36,7 @@ Author URL: http://w3layouts.com
                 <div class="top-headers">
                     <ul>
                         <li>
-                            <a href="blankpage.html" class="d-sm-block d-none">Have any question ?</a>
+                            <a href="contact.html" class="d-sm-block d-none">Have any question ?</a>
                         </li>
                         <li>
                             <i class="fa fa-phone"></i><a href="tel:+919350227009">+91 9350227009</a>
@@ -73,10 +73,10 @@ Author URL: http://w3layouts.com
             <nav class="navbar navbar-expand-lg stroke">
                 <h1>
                     <a class="navbar-brand d-flex align-items-center" href="index.html">
-                        <img src="assets/images/3gblogo.png" height='35px' alt="3-gb logo" class="mr-1" /></a>
+                        <img src="assets/images/3gblogo.png" style="background-color: white;padding: 5px;" height='45px' alt="3-gb logo" class="mr-1" /></a>
                 </h1>
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-                    data-target="blankpage.htmlnavbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
                     <span class="navbar-toggler-icon fa icon-close fa-times"></span>
@@ -94,10 +94,11 @@ Author URL: http://w3layouts.com
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-35">Class 9-10</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-39">Class 11-12</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-40">Programming</a>
-                                <a href="blankpage.html" class="dropdown-item" id="menu-item-41">Artificial Intelligence</a>
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-41">Artificial
+                                    Intelligence</a>
                             </div>
                         </li>
-                        <li id="menu-item-23"
+                        <!-- <li id="menu-item-23"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
                                 aria-haspopup="true" aria-expanded="false">Study Material <i
@@ -106,25 +107,30 @@ Author URL: http://w3layouts.com
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-13">Notes</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-33">Text Books</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-36">Text Book Solutions</a>
-                                <a href="blankpage.html" class="dropdown-item" id="menu-item-42">Sample Papers Solutions</a>
-                                <a href="blankpage.html" class="dropdown-item" id="menu-item-43">Short Video Lectures</a>
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-42">Sample Papers
+                                    Solutions</a>
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-43">Short Video
+                                    Lectures</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-44">Practice Quiz</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-45">Youtube</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-46">Kid Creatives</a>
-                                
+
                             </div>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="blankpage.html">Study Material</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="microcourse.html">Micro Courses</a>
+                            <a class="nav-link" href="blankpage.html">Micro Courses</a>
                         </li>
                         <li id="menu-item-21"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
                                 aria-haspopup="true" aria-expanded="false">More <i class="fa fa-angle-down"></i></a>
                             <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
-                                <a href="blankpage.html" class="dropdown-item" id="menu-item-11">Blogs</a><a
-                                    href="blankpage.html" class="dropdown-item" id="menu-item-30">Latest Updates</a><a
-                                    href="blankpage.html" class="dropdown-item" id="menu-item-34">About Us</a><a
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-11">Blogs</a>
+                                <!-- <a href="blankpage.html" class="dropdown-item" id="menu-item-30">Latest Updates</a> -->
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-34">About Us</a><a
                                     href="contact.html" class="dropdown-item" id="menu-item-38">Contact Us</a>
                             </div>
                         </li>
@@ -134,10 +140,11 @@ Author URL: http://w3layouts.com
                             </div>
                         </li>
                         <li class="nav-item">
-                            <div class="nav-link"><i class="fa fa-search"></i></div>
+                            <div class="nav-link" id="search-icon"><i class="fa fa-search"
+                                    onclick="displaySearch()"></i></div>
                         </li>
                         <div class="search-right ml-lg-3" id='search-bar'>
-                            <form action="blankpage.htmlsearch" method="GET" class="search-box position-relative">
+                            <form action="#search" method="GET" class="search-box position-relative">
                                 <div class="input-search">
                                     <input type="search" placeholder="Enter Keyword" name="search" required="required"
                                         autofocus="" class="search-popup">
@@ -173,50 +180,29 @@ Author URL: http://w3layouts.com
     <!-- banner section -->
     <section class="w3l-main-slider" id="home">
         <div class="companies20-content">
-            <!-- <div class="owl-one owl-carousel owl-theme"> -->
-            <!-- <div class="item">
-                    <li>
-                        <div class="slider-info banner-view">
-                            <div class="banner-info">
-                                <div class="container">
-                                    <div class="banner-info-bg" style="max-width: 600px;">
-                                        <h5>Building a community of lifelong learners!</h5>
-                                        <a class="btn btn-style mt-sm-5 mt-4" href="blankpage.html">
-                                            Know More about us<i class="fa fa-arrow-right ml-2"
-                                                aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </div> -->
-            <!-- <div class="item"> -->
-            <!-- <li>/ -->
             <div class="slider-info  banner-view banner-top1">
                 <div class="banner-info">
                     <div class="container-fluid">
                         <div class="banner-info-bg container-fluid d-flex justify-content-end">
                             <div class="col-lg-4 free-class-form">
                                 <div class="contact-form-sec pt-5">
-                                    <p class="free-class-form-header mt-3" style="color: black;">Book a <span>Demo Class</span></p>
+                                    <p class="free-class-form-header mt-3" style="color: black;">Book a <span>Demo
+                                            Class</span></p>
                                     <div class="contact-block">
-                                        <div class="col-sm-12 mt-4 pl-lg-4 form-div">
+                                        <div class="col-sm-12 mt-4 pl-lg-4 form-div" id="formDiv">
 
-                                            <form id="DemoClassForm"  
-                                            action=”mailto:pradeepa.seelam@gmail.com”
-                                            method=”POST”
-                                            enctype=”multipart/form-data”
-                                            name=”DemoClassForm”>
+                                            <form id="DemoClassForm" name="DemoClassForm" method=”POST” action="demoForm.php">
                                                 <!-- One "tab" for each step in the form: -->
                                                 <div class="tab">
-                                                    <input class="col-lg-12 col-sm-12" placeholder="Name..." oninput="this.className = ''"
-                                                        name="name" required>
-                                                    <input class="col-lg-12 col-sm-12" type="email" placeholder="E-mail..."
-                                                        oninput="this.className = ''" name="email" required>
+                                                    <input class="col-lg-12 col-sm-12" placeholder="Name..."
+                                                        oninput="this.className = ''" name="name" required>
+                                                    <input class="col-lg-12 col-sm-12" type="email"
+                                                        placeholder="E-mail..." oninput="this.className = ''"
+                                                        name="email" required>
                                                 </div>
                                                 <div class="tab">
-                                                    <input class="col-lg-12 col-sm-12" placeholder="Mobile Number..." oninput="this.className = ''"
-                                                        name="phone" required>
+                                                    <input class="col-lg-12 col-sm-12" placeholder="Mobile Number..."
+                                                        oninput="this.className = ''" name="phone" required>
                                                     <input class="col-lg-12 col-sm-12" placeholder="Language Preference"
                                                         oninput="this.className = ''" name="lang" required>
                                                 </div>
@@ -228,7 +214,7 @@ Author URL: http://w3layouts.com
                                                 </div>
 
                                                 <div style="overflow:auto;">
-                                                    <div >
+                                                    <div>
                                                         <button class="btn btn-style btn-style-secondary" type="button"
                                                             id="prevBtn" onclick="nextPrev(-1)">Previous</button>
                                                         <button class="btn btn-style btn-style-secondary" type="button"
@@ -250,9 +236,6 @@ Author URL: http://w3layouts.com
                     </div>
                 </div>
             </div>
-            <!-- </li> -->
-            <!-- </div> -->
-            <!-- </div> -->
         </div>
     </section>
     <!-- //banner section -->
@@ -283,7 +266,7 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-3 col-md-5 px-lg-2 mt-lg-0 mt-3">
                     <div class="area-box color-4">
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <h4><a href="blankpage.html" class="title-head">Review</a></h4>
+                        <h4><a href="contact.html" class="title-head">Review</a></h4>
                     </div>
                 </div>
             </div>
@@ -305,11 +288,9 @@ Author URL: http://w3layouts.com
                                 <span class="fa fa-graduation-cap" aria-hidden="true"></span>
                             </div>
                             <div class="feature-info mt-4">
-                                <a href="blankpage.html">
                                     <h3 class="feature-titel">
                                         Dedicated Educators
                                     </h3>
-                                </a>
                                 <p class="feature-text">Learning is easier when you have an excellent teacher. That's
                                     why most of our educators have achieved an advanced degree in their field. Our
                                     their lessons.</p>
@@ -322,9 +303,7 @@ Author URL: http://w3layouts.com
                                 <span class="fa fa-users" aria-hidden="true"></span>
                             </div>
                             <div class="feature-info mt-4">
-                                <a href="blankpage.html">
                                     <h3 class="feature-titel">First rate curriculum</h3>
-                                </a>
                                 <p class="feature-text">Are you a beginner, expert, or somewhere in between?
                                     Not to worry! We offer a variety of high-quality courses designed to prepare you for
                                     your next step. </p>
@@ -337,9 +316,7 @@ Author URL: http://w3layouts.com
                                 <span class="fa fa-book" aria-hidden="true"></span>
                             </div>
                             <div class="feature-info mt-4">
-                                <a href="blankpage.html">
                                     <h3 class="feature-titel">Commitment to Excellence</h3>
-                                </a>
                                 <p class="feature-text">Our mission is to embrace the pursuit of excellence both inside
                                     and outside the classroom. We encourage critical thinking and emphasize the learning
                                     process over rote memorization. </p>
@@ -1060,19 +1037,21 @@ Author URL: http://w3layouts.com
                                 <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Micro
                                         Courses</a>
                                 </li>
-                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Find a Tutor</a></li>
-                                <li><a href="contact.html"><span class="fa fa-angle-double-right mr-2"></span>Free
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Find a
+                                        Tutor</a></li>
+                                <li><a href="index.html"><span class="fa fa-angle-double-right mr-2"></span>Free
                                         Demo</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-3 col-sm-6 sub-two-right pl-lg-5 mt-lg-0 mt-sm-5 mt-4">
                             <h6>Help & Support</h6>
                             <ul>
-                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Live
+                                <li><a href="https://wa.me/919350227009"><span class="fa fa-angle-double-right mr-2"></span>Live
                                         Chat</a></li>
                                 <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Faq</a>
                                 </li>
-                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Support</a>
+                                <li><a href="contact.html"><span
+                                            class="fa fa-angle-double-right mr-2"></span>Support</a>
                                 </li>
                                 <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Terms
                                         of Services</a></li>
@@ -1082,14 +1061,14 @@ Author URL: http://w3layouts.com
                             <h6>Contact </h6>
                             <div class="column2">
                                 <div class="href1"><span class="fa fa-envelope-o" aria-hidden="true"></span><a
-                                        href="mailto:careers.3gb@gmail.com">careers.3gb@gmail.com</a>
+                                        href="mailto:help.3gb@gmail.com">help.3gb@gmail.com</a>
                                 </div>
                                 <div class="href2"><span class="fa fa-phone" aria-hidden="true"></span><a
                                         href="tel:+9350227009">+91 9350227009</a>
                                 </div>
                                 <div>
-                                    <p class="contact-para"><span class="fa fa-map-marker"
-                                            aria-hidden="true"></span><a href='contact.html#map'>Radaur, Haryana</a></p>
+                                    <p class="contact-para"><span class="fa fa-map-marker" aria-hidden="true"></span><a
+                                            href='contact.html#map'>Radaur, Haryana</a></p>
                                 </div>
                             </div>
                         </div>
@@ -1110,7 +1089,8 @@ Author URL: http://w3layouts.com
                                     <li><a href="https://twitter.com/Shivangigarg160"><span class="fa fa-twitter"
                                                 aria-hidden="true"></span></a>
                                     </li>
-                                    <li><a href="https://www.instagram.com/3gbeducation/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+                                    <li><a href="https://www.instagram.com/3gbeducation/"><span class="fa fa-instagram"
+                                                aria-hidden="true"></span></a>
                                     </li>
                                     <li><a href="https://www.facebook.com/3gbeducation"><span class="fa fa-facebook"
                                                 aria-hidden="true"></span></a>
@@ -1161,6 +1141,10 @@ Author URL: http://w3layouts.com
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
+        }
+        function displaySearch() {
+            document.getElementById('search-icon').style.display = "none";
+            document.getElementById('search-bar').style.display = "block";
         }
     </script>
     <!-- //move top -->
@@ -1352,7 +1336,7 @@ Author URL: http://w3layouts.com
                 if (y[i].value == "") {
                     // add an "invalid" class to the field:
                     y[i].className += " invalid";
-                    console.log( y[i].className);
+                    console.log(y[i].className);
                     // and set the current valid status to false
                     valid = false;
                 }

@@ -53,7 +53,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-auto">
-                        <li id="menu-item-22"
+                        <!-- <li id="menu-item-22"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
                                 aria-haspopup="true" aria-expanded="false">Find a Tutor <i
@@ -67,6 +67,9 @@
                                 <a href="blankpage.php" class="dropdown-item" id="menu-item-41">Artificial
                                     Intelligence</a>
                             </div>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="blankpage.php">Find a Tutor</a>
                         </li>
                         <!-- <li id="menu-item-23"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
@@ -88,7 +91,7 @@
                             </div>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="blankpage.php">Study Material</a>
+                            <a class="nav-link" href="latest.php">Latest Updates</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="blankpage.php">Micro Courses</a>
@@ -98,9 +101,9 @@
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
                                 aria-haspopup="true" aria-expanded="false">More <i class="fa fa-angle-down"></i></a>
                             <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
-                                <a href="blankpage.php" class="dropdown-item" id="menu-item-11">Blogs</a>
+                                <a href="blog.php" class="dropdown-item" id="menu-item-11">Blogs</a>
                                 <!-- <a href="blankpage.html" class="dropdown-item" id="menu-item-30">Latest Updates</a> -->
-                                <a href="blankpage.php" class="dropdown-item" id="menu-item-34">About Us</a><a
+                                <a href="about.php" class="dropdown-item" id="menu-item-34">About Us</a><a
                                     href="contact.php" class="dropdown-item" id="menu-item-38">Contact Us</a>
                             </div>
                         </li>

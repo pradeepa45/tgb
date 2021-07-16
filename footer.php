@@ -12,7 +12,7 @@
                             <div class="main-midd-2 col-md-5 mt-md-5 mt-4">
                                 <form action="mailList.php" method="POST" class="rightside-form">
                                     <input type="email" class="form-control" name="email"
-                                        placeholder="Enter your email">
+                                        placeholder="Enter your email" required>
                                     <button class="btn" type="submit">Send</button>
                                 </form>
                             </div>
@@ -23,7 +23,7 @@
                         <div class="col-lg-2 col-sm-6 sub-two-right pl-lg-5 mt-lg-0 mt-sm-5 mt-4">
                             <h6>Quick links</h6>
                             <ul>
-                                <li><a href="index.php"><span class="fa fa-angle-double-right mr-2"></span>About</a>
+                                <li><a href="about.php"><span class="fa fa-angle-double-right mr-2"></span>About</a>
                                 </li>
                                 <li><a href="blankpage.php"><span class="fa fa-angle-double-right mr-2"></span>Micro
                                         Courses</a>
@@ -39,7 +39,7 @@
                             <ul>
                                 <li><a href="https://wa.me/919350227009"><span class="fa fa-angle-double-right mr-2"></span>Live
                                         Chat</a></li>
-                                <li><a href="blankpage.php"><span class="fa fa-angle-double-right mr-2"></span>Faq</a>
+                                <li><a href="faq.php"><span class="fa fa-angle-double-right mr-2"></span>FAQ</a>
                                 </li>
                                 <li><a href="contact.php"><span
                                             class="fa fa-angle-double-right mr-2"></span>Support</a>

@@ -105,17 +105,17 @@ Author URL: http://w3layouts.com
                             <img src="assets/images/contact.jpg" alt="" class="img-fluid img-responsive">
                         </div>
                         <div class="col-md-7 contact-right mt-md-0 mt-4 pl-lg-4">
-                            <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
+                            <form action="search.php" method="post" class="signin-form">
                                 <div class="input-grids">
-                                    <input type="text" name="w3lName" id="w3lName" placeholder="Your Name*"
+                                    <input type="text" name="name" id="w3lName" placeholder="Your Name*"
                                         class="contact-input" required="" />
-                                    <input type="email" name="w3lSender" id="w3lSender" placeholder="Your Email*"
+                                    <input type="email" name="email" id="w3lSender" placeholder="Your Email*"
                                         class="contact-input" required="" />
-                                    <input type="text" name="w3lSubect" id="w3lSubect" placeholder="Subject*"
+                                    <input type="text" name="subject" id="w3lSubect" placeholder="Subject*"
                                         class="contact-input" required="" />
                                 </div>
                                 <div class="form-input">
-                                    <textarea name="w3lMessage" id="w3lMessage" placeholder="Type your message here*"
+                                    <textarea name="message" id="w3lMessage" placeholder="Type your message here*"
                                         required=""></textarea>
                                 </div>
                                 <button class="btn btn-style btn-style-secondary mt-sm-3">Send Message</button>
